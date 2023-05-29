@@ -15,7 +15,9 @@ body{
     justify-content: center;
     align-items: center;
 }
-
+::selection {
+    background: transparent;
+}
 .layout{
 	width: 350px;
 	height: 540px;
